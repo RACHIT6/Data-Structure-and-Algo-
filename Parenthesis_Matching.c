@@ -27,7 +27,7 @@ int IsEmpty(struct node *p)
     return 0;
 }
 
-void push(struct node *p, int element)
+void push(struct node *p, char element)
 {
     if (IsFull(p))
     {
